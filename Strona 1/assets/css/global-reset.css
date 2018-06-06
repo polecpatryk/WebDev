@@ -1,0 +1,24 @@
+html, body, main, div, span, object, applet, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, acronym, abbr, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, s, strike, tt, i, dl, dt, dd, ol, ul, li, fieldset, form, input, textarea, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, section, summary, time, mark, audio, video
+{
+border:0px;
+border-spacing:0px;
+margin:0px;
+padding:0px;
+outline:0px;
+font-size:100%;
+font-weight:inherit;
+box-sizing:border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section
+{ 
+display:block;
+box-sizing:border-box;
+}
+
+a
+{
+color:#000000;
+text-decoration:none;
+box-sizing:border-box;
+}

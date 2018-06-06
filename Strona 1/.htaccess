@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^cyklinowanie.org [NC]
+RewriteRule ^(.*)$ http://www.cyklinowanie.org/$1 [L,R=301]

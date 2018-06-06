@@ -1,0 +1,658 @@
+html, body 
+{
+background:#f3f3f3 url(../images/header-bg.png) repeat-x;
+margin:0px;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+input
+{
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.pds
+{
+margin:auto;
+width:1000px;
+}
+/* border:1px solid #000000;
+/* --------------------------------------------------------------- */
+/* ----------------------------- Top ----------------------------- */
+
+.top
+{
+background:url(../images/header.jpg) no-repeat;
+height:170px;
+position:relative;
+}
+
+/* ------- Formularz logowania ------ */
+.log-form
+{
+margin-top:10px;
+margin-right:30px;
+width:300px;
+float:right;
+}
+
+.log-edit1
+{
+background:url(../images/log-edit1.png) no-repeat;
+padding-left:25px;
+padding-right:15px;
+width:92px;
+height:22px;
+border:none;
+float:left;
+}
+
+.log-edit2
+{
+background:url(../images/log-edit2.png) no-repeat;
+margin-left:6px;
+padding-left:25px;
+padding-right:15px;
+width:92px;
+height:22px;
+border:none;
+float:left;
+}
+
+.log-button
+{
+background:url(../images/log-button.png) no-repeat;
+margin-left:6px;
+margin-bottom:20px;
+width:24px;
+height:22px;
+border:none;
+cursor:pointer;
+float:left;
+}
+
+.log-text
+{
+font-size:0.7em;
+text-align:right;
+color:#ffffff;
+}
+
+.log-text a
+{ 
+color:#ffffff;
+text-decoration:underline; 
+}
+
+.log-text a:hover
+{ 
+color:#ffffff;
+text-decoration:none;  
+}
+
+/* ------------ User panel ---------- */
+.user-panel
+{
+background:url(../images/user-bg.png) no-repeat;
+margin-right:25px;
+padding-top:8px;
+padding-left:10px;
+padding-right:5px;
+width:200px;
+height:92px;
+float:right;
+}
+
+.user-avatar
+{
+width:80px;
+height:80px;
+float:right;
+}
+
+.user-header
+{
+background:url(../images/user-header.png) no-repeat;
+padding-top:2px;
+width:115px;
+height:21px;
+text-align:center;
+font-size:0.7em;
+font-weight:bold;
+color:#ffb35a;
+float:left;
+}
+
+.user-menu
+{
+background:url(../images/user-menu.png) no-repeat;
+width:115px;
+height:58px;
+text-align:center;
+font-size:0.7em;
+float:left;
+}
+
+.user-menu ul
+{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+
+.user-menu li
+{
+padding-top:2px;
+padding-bottom:1px;
+text-align:center;
+}
+
+.user-menu a
+{
+font-weight:bold;
+text-decoration:none;
+color:#ffffff;
+}
+
+.user-menu a:hover
+{
+text-decoration:underline;
+color:#ffffff;
+}
+
+/* ---------- Wyszukiwarka ---------- */
+.q
+{
+position:absolute;
+width:300px;
+left:50px;
+bottom:25px;
+}
+
+.q-edit
+{
+background:url(../images/q-edit.png) no-repeat;
+padding:0px 8px;
+width:189px;
+height:30px;
+border:none;
+float:left;
+}
+
+.q-button
+{
+background:url(../images/q-button.png) no-repeat;
+width:90px;
+height:30px;
+border:none;
+text-transform:uppercase; 
+font-weight:bold; 
+color:#ffffff;
+cursor:pointer;
+float:right;
+}
+
+.q-button:hover
+{
+background:url(../images/q-button-hover.png) no-repeat;
+}
+
+/* ----------- Menu główne ---------- */
+.menu-g
+{
+position:absolute;
+width:533px;
+height:40px;
+font-size:0.8em;
+text-align:right;
+right:25px;
+bottom:20px;
+}
+
+.menu-g ul
+{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+
+.menu-g li
+{
+display:inline;
+text-align:center;
+}
+
+.menu-g a
+{
+padding:12px 15px 14px; 
+display:inline-block; 
+text-transform:uppercase; 
+font-weight:bold; 
+text-decoration:none;
+color:#ffffff;
+}
+
+.menu-g a:hover
+{
+background:url(../images/menu-hover.png) repeat-x;
+text-decoration:none;
+color:#ffffff;
+}
+
+/* --------------------------------------------------------------- */
+/* ---------------------------- Center --------------------------- */
+
+.center
+{
+background:url(../images/center-bg.png) repeat-y;
+padding-top:5px;
+width:1000px;
+height:auto;
+}
+
+/* ---------- Informacje ------------ */
+.info
+{
+background:url(../images/info-bg.png) repeat-y;
+padding-bottom:20px;
+width:1000px;
+}
+
+.info-text-error
+{
+background:#ffe4e3;
+border:2px dashed #e92117;
+margin-left:50px;
+padding:15px 0px;
+width:915px;
+font-size:0.9em;
+text-align:center;
+color:#e92117;
+position:relative;
+}
+
+.info-text-success
+{
+background:#ebffdc;
+border:2px dashed #56c601;
+margin-left:50px;
+padding:15px 0px;
+width:915px;
+font-size:0.9em;
+text-align:center;
+color:#56c601;
+position:relative;
+}
+
+.info-x
+{
+position:absolute;
+top:5px;
+right:5px;
+cursor:pointer;
+}
+
+/* ---------------------------------- */
+/* --------- Lewa kolumna ----------- */
+.center-left
+{
+margin-left:25px;
+padding:5px 25px;
+width:685px;
+float:left;
+}
+
+.center-left h1
+{
+border-left:8px solid #ffb35a;
+margin-top:0px;
+padding-left:5px;
+font-size:1.4em;
+}
+
+.center-left-button
+{
+border:none;
+background:url(../images/center-left-button.png) no-repeat;
+width:104px;
+height:34px;
+cursor:pointer;
+}
+
+.center-left-button:hover
+{
+background:url(../images/center-left-button-hover.png) no-repeat;
+}
+
+/* ---------- Rejestracja ----------- */
+.reje-left
+{
+border-right:2px dashed #dfdfe1;
+margin-top:15px;
+padding-right:30px;
+width:330px;
+float:left;
+}
+
+.reje-label
+{
+font-size:0.8em;
+font-weight:bold;
+}
+
+.reje-edit
+{
+border:1px solid #d4d4d4;
+margin-top:3px;
+margin-bottom:10px;
+padding:3px;
+width:322px;
+height:24px;
+font-size:0.8em;
+}
+
+.reje-sr
+{
+margin-top:15px;
+width:330px;
+text-align:center;
+}
+
+.reje-right
+{
+margin-top:15px;
+padding-left:30px;
+width:293px;
+height:250px;
+float:left;
+}
+
+.reje-right ul
+{
+padding-left:15px;
+}
+
+#ul1 li
+{
+padding-bottom:5px;
+font-size:0.8em;
+color:#e92117;
+}
+
+#ul2 li
+{
+padding-bottom:5px;
+font-size:0.8em;
+}
+
+.reje-success
+{
+padding-top:80px;
+font-size:0.9em;
+font-weight:bold;
+color:#56c601;
+}
+
+/* --------- Edytuj profil ---------- */
+.edytuj-p-menu
+{
+border-bottom:1px solid #c9c9c9;
+margin-top:15px;
+width:685px;
+height:35px;
+font-size:0.8em;
+text-align:center;
+}
+
+.edytuj-p-menu ul
+{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+
+.edytuj-p-menu li
+{
+background:url(../images/edytuj-p-menu.png) no-repeat;
+width:120px;
+height:35px;
+display:inline-block;
+text-align:center;
+}
+
+.edytuj-p-menu li:hover
+{
+background:url(../images/edytuj-p-menu-hover.png) no-repeat;
+}
+
+.edytuj-p-menu a
+{
+padding:11px 18px 11px;
+display:inline-block;
+font-weight:bold; 
+text-decoration:none;
+color:#000000;
+}
+
+.edytuj-p-menu a:hover
+{
+text-decoration:none;
+color:#000000;
+}
+
+.edytuj-p-left
+{
+border-right:2px dashed #dfdfe1;
+margin-top:15px;
+padding-right:30px;
+width:330px;
+height:100%;
+float:left;
+}
+
+.edytuj-p-label
+{
+font-size:0.8em;
+font-weight:bold;
+}
+
+.edytuj-p-edit
+{
+border:1px solid #d4d4d4;
+margin-top:3px;
+margin-bottom:10px;
+padding:3px;
+width:322px;
+height:24px;
+font-size:0.8em;
+}
+
+.edytuj-p-file
+{
+margin-top:3px;
+margin-bottom:10px;
+width:330px;
+height:26px;
+font-size:0.9em;
+display:inline-block;
+}
+
+.edytuj-p-textarea
+{
+border:1px solid #d4d4d4;
+margin-top:3px;
+margin-bottom:3px;
+padding:3px;
+width:322px;
+font-size:1em;
+}
+
+.edytuj-p-sr
+{
+margin-top:15px;
+width:330px;
+text-align:center;
+}
+
+.edytuj-p-right
+{
+margin-top:15px;
+padding-left:30px;
+width:293px;
+float:left;
+}
+
+.edytuj-p-right ul
+{
+padding-left:15px;
+}
+
+#ul1 li
+{
+padding-bottom:5px;
+font-size:0.8em;
+color:#e92117;
+}
+
+#ul2 li
+{
+padding-bottom:5px;
+font-size:0.8em;
+}
+
+.edytuj-p-success
+{
+padding-top:80px;
+font-size:0.9em;
+font-weight:bold;
+color:#56c601;
+}
+
+.edytuj-p-border
+{
+border-top:1px solid #c9c9c9;
+margin-top:15px;
+width:685px;
+}
+
+/* ---------------------------------- */
+/* --------- Prawa kolumna ---------- */
+.center-right
+{
+padding:5px 5px;
+width:205px;
+float:left;
+}
+
+.center-right h1
+{
+background:url(../images/center-right-h1.jpg) no-repeat;
+margin-top:0px;
+padding-top:8px;
+padding-left:40px;
+width:165px;
+height:29px;
+font-size:0.8em;
+font-weight:bold;
+color:#ffffff;
+}
+
+/* --------------------------------------------------------------- */
+/* ---------------------------- Bottom --------------------------- */
+
+.footer
+{
+background:url(../images/footer.jpg) no-repeat;
+padding:28px 0px 0px;
+height:80px;
+text-align:center;
+font-size:0.7em;
+font-weight:bold; 
+color:#ffffff;
+}
+
+/* --------------------------------------------------------------- */
+/* ---------------------------- Galeria -------------------------- */
+
+#simplegallery1
+{
+margin:auto;
+margin-top:2px;
+margin-bottom:30px;
+width:685px;
+position:relative; /*keep this intact*/
+visibility:hidden; /*keep this intact*/
+text-align:center;
+}
+
+.gallerydesctext
+{
+padding-left:5px;
+padding-bottom:5px;
+text-align:justify;
+font-size:0.7em;
+}
+
+/* --------------------------------------------------------------- */
+/* ----------------------------- Inne ---------------------------- */
+
+noscript div
+{
+margin:100px 0px;
+text-align:center;
+font-size:1em;
+}
+
+.both
+{
+clear:both;
+}
+
+.no-border
+{
+border:none;
+}
+
+.srodek
+{
+text-align:center;
+}
+
+.znaki
+{
+margin-bottom:10px;
+font-size:0.7em;
+}
+
+
+
+/*
+
+ ---------- Wyszukiwarka ----------
+.q
+{
+padding:0px 5px;
+width:195px;
+}
+
+.q-edit
+{
+background:url(../images/q-edit.png) no-repeat;
+padding:0px 5px;
+width:147px;
+height:27px;
+border:none;
+float:left;
+}
+
+.q-button
+{
+background:url(../images/q-button.png) no-repeat;
+width:30px;
+height:27px;
+border:none;
+cursor:pointer;
+float:right;
+}
+
+*/
